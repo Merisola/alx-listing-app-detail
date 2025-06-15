@@ -26,3 +26,10 @@ export interface PropertyProps {
     comment: string;
   }[];
 }
+
+export interface Review {
+  name: string;
+  avatar: string;
+  rating: number;
+  comment: string;
+}
